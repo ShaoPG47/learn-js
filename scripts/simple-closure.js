@@ -8,3 +8,4 @@ function makeFunc() {
 
 const f = makeFunc();
 f();
+
