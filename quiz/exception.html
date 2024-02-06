@@ -24,7 +24,11 @@
       // Using map to calculate the square root of each number
       // Use Math.sqrt(number) to calculate sq root
       const squareRoots = numbers.map(number => {
-        return 0
+        if (number < 0) {
+        throw "error, negative number"
+        return 0;
+      }
+      return Math.sqrt(number)
     });
 
       // Displaying the original and transformed arrays

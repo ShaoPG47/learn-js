@@ -5,8 +5,12 @@ class PStack {
     this._persons = [];
   }
 
-  showId() {
+  get Id() {
     return this.#id;
+  }
+
+  set Id(I) {
+    this.#id = I
   }
 
 }
